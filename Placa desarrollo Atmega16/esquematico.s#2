@@ -21460,13 +21460,6 @@ Based on  the following source:
 <wire x1="-25.4" y1="22.86" x2="-25.4" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<pinref part="D1" gate="1" pin="A"/>
-<wire x1="-45.72" y1="121.92" x2="-38.1" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="VCC_3V" class="0">
 <segment>
 <pinref part="IC2" gate="A1" pin="VO"/>
@@ -21502,6 +21495,13 @@ Based on  the following source:
 <pinref part="JP2" gate="A" pin="2"/>
 <pinref part="IC2" gate="A1" pin="VI"/>
 <wire x1="17.78" y1="144.78" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="D1" gate="1" pin="A"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="-38.1" y1="121.92" x2="-45.72" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

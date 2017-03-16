@@ -20577,7 +20577,7 @@ Based on  the following source:
 <part name="SV3" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="X1" library="con-berg" deviceset="PN61729-S" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="Q2" library="crystal" deviceset="CRYSTAL" device="HC49S"/>
+<part name="Q2" library="crystal" deviceset="CRYSTAL" device="HC49S" value="16MHz"/>
 </parts>
 <sheets>
 <sheet>
@@ -20617,7 +20617,7 @@ Based on  the following source:
 <instance part="SV2" gate="G$1" x="200.66" y="30.48"/>
 <instance part="S2" gate="1" x="-25.4" y="-2.54"/>
 <instance part="C8" gate="G$1" x="-15.24" y="0"/>
-<instance part="R5" gate="G$1" x="-25.4" y="15.24" rot="R90"/>
+<instance part="R5" gate="G$1" x="-25.4" y="17.78" rot="R90"/>
 <instance part="GND13" gate="1" x="-20.32" y="-15.24"/>
 <instance part="C9" gate="G$1" x="142.24" y="119.38"/>
 <instance part="C10" gate="G$1" x="132.08" y="119.38"/>
@@ -21070,7 +21070,7 @@ Based on  the following source:
 <wire x1="-25.4" y1="2.54" x2="-22.86" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="-22.86" y1="2.54" x2="-15.24" y2="2.54" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="10.16" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="12.7" x2="-25.4" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-25.4" y="2.54"/>
 <wire x1="-25.4" y1="7.62" x2="-25.4" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="7.62" x2="-15.24" y2="7.62" width="0.1524" layer="91"/>
@@ -21400,7 +21400,7 @@ Based on  the following source:
 <net name="N$4" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-25.4" y1="20.32" x2="-25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="22.86" x2="-25.4" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
