@@ -20636,7 +20636,6 @@ Based on  the following source:
 <junction x="45.72" y="114.3"/>
 <junction x="45.72" y="114.3"/>
 <wire x1="45.72" y1="114.3" x2="55.88" y2="114.3" width="0.1524" layer="91"/>
-<label x="132.08" y="124.46" size="1.778" layer="95"/>
 <pinref part="IC3" gate="A1" pin="VO"/>
 </segment>
 <segment>
@@ -20670,6 +20669,8 @@ Based on  the following source:
 <wire x1="132.08" y1="124.46" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="124.46" x2="142.24" y2="121.92" width="0.1524" layer="91"/>
+<label x="132.08" y="121.92" size="1.778" layer="95"/>
+<label x="142.24" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
