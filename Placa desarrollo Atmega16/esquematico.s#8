@@ -21328,11 +21328,6 @@ Based on  the following source:
 <label x="111.76" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="(ADC6)PA6"/>
-<wire x1="104.14" y1="86.36" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
-<label x="111.76" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV2" gate="G$1" pin="13"/>
 <wire x1="208.28" y1="35.56" x2="213.36" y2="35.56" width="0.1524" layer="91"/>
 <label x="208.28" y="35.56" size="1.778" layer="95"/>
@@ -21455,6 +21450,11 @@ Based on  the following source:
 <pinref part="SV2" gate="G$1" pin="14"/>
 <wire x1="208.28" y1="38.1" x2="213.36" y2="38.1" width="0.1524" layer="91"/>
 <label x="208.28" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="(ADC6)PA6"/>
+<wire x1="104.14" y1="86.36" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
+<label x="111.76" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

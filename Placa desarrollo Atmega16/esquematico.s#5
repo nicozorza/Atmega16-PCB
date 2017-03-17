@@ -20568,10 +20568,6 @@ Based on  the following source:
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
 <part name="C12" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="10uF"/>
-<part name="C13" library="rcl" deviceset="C-EU" device="C1206" value="100nF"/>
-<part name="C14" library="rcl" deviceset="CPOL-EU" device="E2,5-6E" value="10uF"/>
-<part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="SV3" library="con-lstb" deviceset="MA03-1" device=""/>
@@ -20631,10 +20627,6 @@ Based on  the following source:
 <instance part="GND17" gate="1" x="33.02" y="134.62"/>
 <instance part="C11" gate="G$1" x="50.8" y="139.7"/>
 <instance part="C12" gate="G$1" x="60.96" y="139.7"/>
-<instance part="C13" gate="G$1" x="15.24" y="139.7"/>
-<instance part="C14" gate="G$1" x="2.54" y="139.7"/>
-<instance part="GND18" gate="1" x="2.54" y="132.08"/>
-<instance part="GND19" gate="1" x="15.24" y="132.08"/>
 <instance part="GND20" gate="1" x="50.8" y="132.08"/>
 <instance part="GND21" gate="1" x="60.96" y="132.08"/>
 <instance part="SV3" gate="G$1" x="165.1" y="-17.78"/>
@@ -20915,14 +20907,6 @@ Based on  the following source:
 <segment>
 <pinref part="IC2" gate="A1" pin="GND"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C14" gate="G$1" pin="-"/>
-<pinref part="GND18" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C13" gate="G$1" pin="2"/>
-<pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
@@ -21415,14 +21399,8 @@ Based on  the following source:
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="C14" gate="G$1" pin="+"/>
-<wire x1="2.54" y1="142.24" x2="2.54" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A1" pin="VI"/>
-<wire x1="2.54" y1="144.78" x2="15.24" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="144.78" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="142.24" x2="15.24" y2="144.78" width="0.1524" layer="91"/>
-<junction x="15.24" y="144.78"/>
+<wire x1="2.54" y1="144.78" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC_3V" class="0">
